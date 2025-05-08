@@ -92,6 +92,7 @@ if __name__=="__main__":
     parser.add_argument("--HF_TOKEN", type=str, default="None",  help=f"HuggingFace token with persmissions to download models in MODELS")
     parser.add_argument("--LAYERS", nargs='+', type=int, default=[12,14,16,18,20],  help=f"Layer to get the activations from")
     parser.add_argument("--FORMATS", nargs='+', type=str, default=pickle_names, help="List of formats to get acts for (sometimes you only want one)")
+    parser.add_argument("--MODELS", nargs='+', type=str, default=MODELS.keys)
    
     args = parser.parse_args()
 
@@ -102,7 +103,9 @@ if __name__=="__main__":
         HF_token=config_dict["HF_token"]
 
 
-    for model_name_short, model_name in MODELS.items():
+    for model_name_short in args.MODELS:
+
+        model_name=MODELS[model_name_short]
 
         print(f"Loading {model_name}")
 
