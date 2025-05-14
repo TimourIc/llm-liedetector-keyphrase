@@ -1,8 +1,6 @@
-# Improving the generalization of LLM lie detection on conversational formats with a key phrase:
+# Exploring the generalization of LLM truth directions on conversational formats.:
 
-This is a paper code repository that was used to explore how LLM truth directions generalize across various conversational formats. 
-
-Disclaimer: This repository reuses some parts of code from https://github.com/sciai-lab/Truth_is_Universal by Scientific AI (2024), that was used for the 2024 paper https://arxiv.org/abs/2407.12831. We are grateful to the authors for open sourcing all of their code and data.
+This is a paper repository that was used to explore how LLM truth directions generalize across various conversational formats. 
 
 ## Setup: 
 
@@ -37,3 +35,7 @@ To generate the figures of the generalization accuracy presented in the paper ru
 To generate the figures of the PCA visualization run:
 
 `notebooks/visualize_PCA.ipynb`
+
+# References:
+
+Disclaimer: This repository reuses/adapts some parts of code from https://github.com/sciai-lab/Truth_is_Universal by Scientific AI (2024), that was used for the 2024 paper https://arxiv.org/abs/2407.12831. We are grateful to the authors for open sourcing all of their code and data.
