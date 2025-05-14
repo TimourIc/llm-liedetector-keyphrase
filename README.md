@@ -2,6 +2,8 @@
 
 This is a paper repository that was used to explore how LLM truth directions generalize across various conversational formats. 
 
+![](figures/Llama3-8b-instruct/keyphrase_pca.png)
+
 ## Setup: 
 
 Clone the repo:
@@ -16,7 +18,7 @@ Make virtual environment and install requirements:
 
 ## Reproducing all results:
 
-Raw true/false statement datasets were taken from https://github.com/sciai-lab/Truth_is_Universal (repo has MIT license), and are stored in:
+Raw true/false statement datasets were reused from https://github.com/sciai-lab/Truth_is_Universal, and are stored in:
 
 `data/raw/ `
 
