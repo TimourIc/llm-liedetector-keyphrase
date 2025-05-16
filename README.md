@@ -1,6 +1,6 @@
-# Exploring the generalization of LLM truth directions on conversational formats.:
+# Exploring the generalization of LLM truth directions on conversational formats:
 
-This is a paper repository that was used to explore how LLM truth directions generalize across various conversational formats. 
+This is a code repository corresponding to this paper: https://arxiv.org/abs/2505.09807 
 
 ![](figures/Llama3-8b-instruct/keyphrase_pca.png)
 
@@ -8,7 +8,7 @@ This is a paper repository that was used to explore how LLM truth directions gen
 
 Clone the repo:
 
-`git clone ...`
+`git clone git@github.com:TimourIc/llm-liedetector-keyphrase.git`
 
 Make virtual environment and install requirements:
 
